@@ -1,0 +1,20 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 数据文件
+qdrant_data/
+local_qdrand/
+
+# 测试文件
+ceshi*.py
+test_*.py
+part_*.py
+prompt_*.py
+
+# 临时文件
+*.log
+*.txt
+
+# 环境变量
+.env
