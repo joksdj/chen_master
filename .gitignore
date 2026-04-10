@@ -1,20 +1,27 @@
-# Python 缓存
+@"
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+env/
 
-# 数据文件
+# 项目数据
 qdrant_data/
-local_qdrand/
-
-# 测试文件
-ceshi*.py
-test_*.py
-part_*.py
-prompt_*.py
-
-# 临时文件
-*.log
-*.txt
+whisper_cache/
+static/IMG*.jpg
 
 # 环境变量
 .env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 日志
+*.log
+"@ | Out-File -FilePath .gitignore -Encoding utf8
